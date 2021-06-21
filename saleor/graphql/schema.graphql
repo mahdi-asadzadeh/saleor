@@ -704,7 +704,8 @@ type AttributeValueUpdate {
 
 input BulkAttributeValueInput {
   id: ID
-  values: [String]!
+  values: [String]
+  boolean: Boolean
 }
 
 type BulkProductError {
